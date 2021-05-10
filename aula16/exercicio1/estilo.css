@@ -1,0 +1,44 @@
+body {
+    background: rgb(141, 57, 238);
+    font: normal 15pt Arial; 
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+
+}
+select#cxselc {
+    width: 150px;
+    background: rgba(0, 0, 0, 0.061);
+    border-radius: 5%;
+    
+}
+
+input#txnum {
+    background: rgba(128, 128, 128, 0.075);
+    border-radius: 5px;  
+
+}
+div#res {
+    text-align: left;
+    margin-left: 35%;
+    margin-top: -35%;
+
+}
+
+footer{
+    color: black;
+    text-align: center;
+    font-style: italic;
+}

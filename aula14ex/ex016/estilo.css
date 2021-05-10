@@ -1,0 +1,60 @@
+body {
+    background: rgba(196, 255, 87, 0.774);
+    font: normal 15pt Arial; 
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 16px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+input#txInicio {
+    display: block;
+    border-color: rgba(0, 0, 255, 0.253);
+    margin-top: -3%;
+
+}
+input#txFim {
+  display: block;
+  border-color: rgba(0, 0, 255, 0.253);
+  margin-top: -3%;
+}
+
+input#txPasso {
+    display: block;
+    border-color: rgba(0, 0, 255, 0.253);
+    margin-top: -3%;
+}
+
+button#botEnviar {
+    margin-top: 3%;
+
+}
+
+div#result {
+    margin-top: 3%;
+
+}
+
+footer{
+    /*background: rgb(47, 46, 47);
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-style: italic;
+}

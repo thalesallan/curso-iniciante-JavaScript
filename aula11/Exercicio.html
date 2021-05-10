@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicio</title>
+</head>
+<body>
+    <h1>Seu País</h1>
+
+    País: <input type="text" name="txpais" id="txpais"> 
+
+   <input type="button" value="verificar" onclick="verificar()">   
+
+    <div id="msg">
+
+    </div>
+
+<script>
+
+    function verificar() {
+
+        var pais = document.querySelector('input#txpais')
+
+        var msg = document.querySelector('div#msg')
+
+        var local = String(pais.value)
+
+        if (local == 'Brasil') {
+
+            msg.innerHTML = `Você é Brasileiro`
+
+        } else {
+
+            msg.innerHTML = `Você é estrangeiro`
+
+        }
+
+    }
+
+</script>
+</body>
+</html>
